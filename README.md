@@ -8,17 +8,16 @@
 	* [Step5: Track edge by hysteresis](#track-edge-by-hysteresis)
 * [Results And Compare](#compare-with-ground-truth-and-opencv-Bulit-in-algorithm)
 
-# Development of the Canny algorithm  
+# Development of the Canny algorithm 
 Canny edge detection is a technique to extract useful structural information from different vision objects and dramatically reduce the amount of data to be processed. It has been widely applied in various computer vision systems. Canny has found that the requirements for the application of edge detection on diverse vision systems are relatively similar. Thus, an edge detection solution to address these requirements can be implemented in a wide range of situations. The general criteria for edge detection include:  
   
-* Detection of edge with low error rate, which means that the detection should accurately catch as many edges shown in the image as possible  
-* The edge point detected from the operator should accurately localize on the center of the edge. 
-* A given edge in the image should only be marked once, and where possible, image noise should not create false edges. 
+* 1. Detection of edge with low error rate, which means that the detection should accurately catch as many edges shown in the image as possible  
+* 2. The edge point detected from the operator should accurately localize on the center of the edge. 
+* 3. A given edge in the image should only be marked once, and where possible, image noise should not create false edges. 
 
-# Process of Canny edge detection algorithm
-****  
-  ```
-    class CannyEdgeDetector(object):
+#Process of Canny edge detection algorithm
+***  
+```class CannyEdgeDetector(object):
 
     """
     A naive canny edge detector's implementations:
@@ -94,8 +93,17 @@ Canny edge detection is a technique to extract useful structural information fro
 
 
 
-**The Process of Canny edge detection algorithm can be broken down to 5 different steps:**
-##Apply Gaussian filter to smooth the image in order to remove the noise
+**The Process of Canny edge detection algorithm can be broken down to 5 different steps:**  
+## Apply Gaussian filter to smooth the image in order to remove the noise  
+
+  
+  
+
+
+## Compare With Ground Truth And OpenCV Bulit-in Algorithm
+**The Berkeley Segmentation Dataset and Benchmark**  
+![original](https://github.com/hfutzzw/CannyEdgeDetector/blob/master/data/circle.jpg) 
+
 
 
 
