@@ -1,12 +1,12 @@
 # A Simple Canny Edge Detector Implementation (Python)
-* [Development of the Canny algorithm](development-of-the-canny-algorithm)
-* [Process of Canny edge detection algorithm](process-of-canny-edge-detection-algorithm)
-	* [Step1: Apply Gaussian filter to smooth the image in order to remove the noise](apply-gaussian-filter-to-smooth-the-image-in-order-to-remove-the-noise)
-	* [Step2: Find the intensity gradients of the image](find-the-intensity-gradients-of-the-image)
-	* [Step3: Apply non-maximum suppression to get rid of spurious response to edge detection](apply-non-maximum-suppression-to-get-rid-of-spurious-response-to-edge-detection)
-	* [Step4: Apply double threshold to determine potential edges](apply-double-threshold-to-determine-potential-edges)
-	* [Step5: Track edge by hysteresis](track-edge-by-hysteresis)
-* [Results And Compare](compare-with-ground-truth-and-opencv-Bulit-in-algorithm)
+* [Development of the Canny algorithm](#development-of-the-canny-algorithm)
+* [Process of Canny edge detection algorithm](#process-of-canny-edge-detection-algorithm)
+	* [Step1: Apply Gaussian filter to smooth the image in order to remove the noise](#apply-gaussian-filter-to-smooth-the-image-in-order-to-remove-the-noise)
+	* [Step2: Find the intensity gradients of the image]#(find-the-intensity-gradients-of-the-image)
+	* [Step3: Apply non-maximum suppression to get rid of spurious response to edge detection](#apply-non-maximum-suppression-to-get-rid-of-spurious-response-to-edge-detection)
+	* [Step4: Apply double threshold to determine potential edges](#apply-double-threshold-to-determine-potential-edges)
+	* [Step5: Track edge by hysteresis](#track-edge-by-hysteresis)
+* [Results And Compare](#compare-with-ground-truth-and-opencv-Bulit-in-algorithm)
 
 # Development of the Canny algorithm  
 Canny edge detection is a technique to extract useful structural information from different vision objects and dramatically reduce the amount of data to be processed. It has been widely applied in various computer vision systems. Canny has found that the requirements for the application of edge detection on diverse vision systems are relatively similar. Thus, an edge detection solution to address these requirements can be implemented in a wide range of situations. The general criteria for edge detection include:  
